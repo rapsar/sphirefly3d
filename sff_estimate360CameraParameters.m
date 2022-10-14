@@ -175,7 +175,7 @@ function [out] = tRestimate_minSearch(alpha1,alpha2,x0)
 
 % if guess vector not provided, assumes t = tx and R = Id
 if nargin == 2
-    x0 = [0 -1 0 0 0 0]';
+    x0 = [0 1 0 0 0 0]';
 end
 
 % arguments for fmincon
